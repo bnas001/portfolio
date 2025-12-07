@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Nattabi Joanitah</title>
+    <meta name="description" content="Contact Nattabi Joanitah — email and contact form." />
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="branding"><h1>Nattabi Joanitah</h1></div>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/skills.html">Skills</a></li>
+            <li><a href="../pages/projects.html">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" action="https://formspree.io/f/{your_form_id}" method="POST" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <p class="contact-fallback">Or email directly: <a href="mailto:nattabijoanitah563@gmail.com">nattabijoanitah563@gmail.com</a></p>
+        <p>GitHub: (To be added later) | LinkedIn: (To be added later)</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Nattabi Joanitah. All rights reserved.</p>
+    </footer>
+
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
